@@ -12,7 +12,7 @@ This is a basic inventory management system for a cake shop implemented in Pytho
    - **View Menu**: Customers can view the available cakes and pastries, including their details like flavour, weight, price, and quantity.
    - **Add to Cart**: Customers can select a cake by entering its ID and specify the quantity. The system ensures that the stock is sufficient for the order.
    - **View Cart**: Customers can view the items in their cart, including their details and quantities.
-   - **Bill Generation**: Customers can generate a bill which includes the total amount, GST (18%), and any applicable discounts (20% off for orders above Rs. 500).
+   - **Bill Generation**: Customers can generate a bill which includes the total amount, GST (18%), and any applicable discounts (2% off for orders above Rs. 500).
 
 3. **Data Persistence**: 
    - The inventory data is stored in a JSON file (`Cake_Inventory.json`), allowing the data to persist across sessions.
